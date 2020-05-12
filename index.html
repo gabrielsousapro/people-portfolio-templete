@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,72 +9,71 @@
     <title>People Portfolio | Gabriel Sousa Front-end Developer</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- sidebar/menu -->
-    <nav class="sidebar">
-        <br>
+        <!-- Sidebar menu -->
+
+    <nav id="sidebar">
         <h3>
-            <b>Some name</b>
+            <b class="uppercase">
+                Some
+                <br>
+                Name
+            </b> 
         </h3>
-        <a href="">Close</a>
-        <a href="">Portfolio</a>
-        <a href="">About me</a>
-        <a href="">Contact</a>
-    </nav>  
-    
+        <a href="">PORTFOLIO</a>
+        <a href="">ABOUT ME</a>
+        <a href="">CONTACT</a>
+    </nav>
     <!-- top menu on small screens -->
-    <header class="header padding-16 float-left">
+
+    <header class="header padding-16 float-left" style="display: none;">
         <span class="padding-8-16 uppercase">Some name</span>
         <a class="" href="">☰</a>
     </header>
 
-    <!-- overlay effect when open on small screens -->
-    <!-- 
-        ...
-     -->
+    <!-- grid images -->
+    
+    <div class="photo-grid">
 
-    <!-- page content -->
-   
-        <!-- grid images -->
-        <div class="photo-grid">
-            <div class="column c-01">
-                <img src="_img/boy.jpg" alt="some description">
-            </div>
-
-            <div class="column c-02">
-                <img src="_img/closegirl.jpg" alt="some description">
-            </div>
-
-            <div class="column c-03">
-                <img src="_img/girl.jpg" alt="some description">
-            </div>
-            
-            <div class="column c-04">
-                <img src="_img/girl_mountain.jpg" alt="some description">
-            </div>
-
-            <div class="column c-05">
-                <img src="_img/boy.jpg" alt="some description">
-            </div>
-
-            <div class="column c-06">
-                <img src="_img/girl_train.jpg" alt="some description">
-            </div>
-
-            <div class="column c-07">
-                <img src="_img/closegirl.jpg" alt="some description">
-            </div>
-
-            <div class="column c-08">
-                <img src="_img/natureboy.jpg" alt="some description">
-            </div>
-
-            <div class="column c-09">
-                <img src="_img/girl_mountain.jpg" alt="some description">
-            </div>
+        <div class="column c-01">
+            <img src="_img/boy.jpg" alt="some description">
         </div>
-        <div class="content">
-        
+
+        <div class="column c-02">
+            <img src="_img/closegirl.jpg" alt="some description">
+        </div>
+
+        <div class="column c-03">
+            <img src="_img/girl.jpg" alt="some description">
+        </div>
+
+        <div class="column c-04">
+            <img src="_img/girl_mountain.jpg" alt="some description">
+        </div>
+
+        <div class="column c-05">
+            <img src="_img/boy.jpg" alt="some description">
+        </div>
+
+        <div class="column c-06">
+            <img src="_img/girl_train.jpg" alt="some description">
+        </div>
+
+        <div class="column c-07">
+            <img src="_img/closegirl.jpg" alt="some description">
+        </div>
+
+        <div class="column c-08">
+            <img src="_img/natureboy.jpg" alt="some description">
+        </div>
+
+        <div class="column c-09">
+            <img src="_img/girl_mountain.jpg" alt="some description">
+        </div>
+    </div>
+
+    <div class="content">
         <!-- pagination -->
         <div>
             <div>
@@ -90,18 +90,23 @@
         <!-- 
             ...
          -->
-         <div id="about">
+        <div id="about">
             <h4>
                 <b>About me</b>
             </h4>
-            
+
             <img src="" alt="">
             <div>
                 <h4>My name</h4>
                 <p>
-                    Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <p>mail: example@example.com</p>
                 <p>tel: 3444 67542</p>
@@ -150,32 +155,33 @@
                             <li>Sign Up</li>
                         </ul>
                     </div>
-                        <ul>
-                            <li>Pro</li>
-                            <li>Web Design</li>
-                            <li>Photography</li>
-                            <li>50GB Storage</li>
-                            <li>Endless Support</li>
-                            <li>
-                                <h2>
-                                    $25
-                                </h2>
-                                <span>
-                                    per month
-                                </span>
-                            </li>
-                            <li>Sign Up</li>
-                        </ul>
+                    <ul>
+                        <li>Pro</li>
+                        <li>Web Design</li>
+                        <li>Photography</li>
+                        <li>50GB Storage</li>
+                        <li>Endless Support</li>
+                        <li>
+                            <h2>
+                                $25
+                            </h2>
+                            <span>
+                                per month
+                            </span>
+                        </li>
+                        <li>Sign Up</li>
+                    </ul>
                 </div>
             </div>
-         </div>
-         <div id="contact">
+        </div>
+        <div id="contact">
             <div>
                 <h4>
                     Contact me
                 </h4>
                 <p>
-                    Do you want me to photograph you? Fill out the form and fill me in with the details : I love meeting new people!
+                    Do you want me to photograph you? Fill out the form and fill me in with the details : I love meeting
+                    new people!
                 </p>
                 <form action="">
                     <div>
@@ -200,17 +206,18 @@
                     </div>
                 </form>
             </div>
-         </div>
+        </div>
 
-         <!-- footer -->
-         <footer>
-            
-         </footer> 
+        <!-- footer -->
+        <footer>
 
-         <!-- end page content -->
-         <div>
+        </footer>
 
-         </div>
+        <!-- end page content -->
+        <div>
+
+        </div>
     </div>
 </body>
+
 </html>
