@@ -6,8 +6,12 @@
 
 }
 
-body {
-    background-color: #ccc;
+body{
+    max-width: 1600px;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
 }
 
 #sidebar {
@@ -23,11 +27,10 @@ body {
 #sidebar h1 {
     color: var(--primary-color);
     font-size: var(--font-size-24);
-    padding: 100px 0;
+    padding: 90px 0;
 }
 
 #sidebar h1 span {
-    margin-top: 15px;
     display: block;
 }
 
@@ -49,4 +52,26 @@ ul {
 #sidebar li:hover {
     background-color: #ccc;
     color: var(--secondary-color);
+}
+
+#main {
+    margin-left: 300px;
+
+}
+
+#portfolio {
+    max-width: 100%;
+    width: 100%;
+}
+
+#portfolio div {
+    display: flex;
+    flex-direction: column;
+    width: 33.33333%;
+    float: left;
+}
+
+#portfolio div img {
+    width: 100%;
+    height: 100%;
 }
