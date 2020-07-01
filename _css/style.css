@@ -1,0 +1,52 @@
+:root {
+    --font-size-16: 15px;
+    --font-size-24: 24px;
+    --primary-color: #747474;
+    --secondary-color: #000;
+
+}
+
+body {
+    background-color: #ccc;
+}
+
+#sidebar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    background-color: #fff;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+}
+
+#sidebar h1 {
+    color: var(--primary-color);
+    font-size: var(--font-size-24);
+    padding: 100px 0;
+}
+
+#sidebar h1 span {
+    margin-top: 15px;
+    display: block;
+}
+
+ul {
+    margin: 0;
+    width: 100%;
+}
+
+#sidebar a {
+    text-decoration: none;
+}
+
+#sidebar ul li {
+    padding: 10px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+#sidebar li:hover {
+    background-color: #ccc;
+    color: var(--secondary-color);
+}
