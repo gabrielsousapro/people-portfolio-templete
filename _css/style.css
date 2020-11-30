@@ -1,8 +1,13 @@
 :root {
-    --font-size-16: 15px;
-    --font-size-24: 24px;
     --primary-color: #747474;
     --secondary-color: #000;
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -26,7 +31,7 @@ body{
 
 #sidebar h1 {
     color: var(--primary-color);
-    font-size: var(--font-size-24);
+    font-size: 3rem;
     padding: 90px 0;
 }
 
@@ -45,8 +50,13 @@ ul {
 
 #sidebar ul li {
     padding: 10px;
+}
+
+#sidebar ul li a {
+    font-size: 1.2rem;
     color: var(--primary-color);
     font-weight: 500;
+    padding: 10px;
 }
 
 #sidebar li:hover {
@@ -58,10 +68,13 @@ ul {
     width: 100%;
     padding-left: 300px;
     display: grid;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: auto auto auto;
     grid-template-rows: repeat(3, auto);
 }
 
 #portfolio div img {
     width: 100%;
+    margin-bottom: 0;
 }
