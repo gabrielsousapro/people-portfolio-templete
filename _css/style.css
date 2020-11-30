@@ -72,7 +72,6 @@ ul {
     align-items: center;
     justify-content: center;
     grid-template-columns: auto auto auto;
-    grid-template-rows: repeat(3, auto);
 }
 
 #portfolio div img {
@@ -115,5 +114,24 @@ ul {
     #portfolio {
         padding-left: 0;
         padding-top: 65px;
+    }
+}
+
+@media (max-width: 576px) {
+    #sidebar {
+        justify-content: center;
+    }
+
+    #sidebar h1 {
+        display: none;
+    }
+
+    #sidebar nav ul li {
+        padding: 10px;
+    }
+
+    #portfolio {
+        padding-top: 43px;
+        grid-template-columns: auto;
     }
 }
