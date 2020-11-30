@@ -20,7 +20,8 @@ body{
 }
 
 #sidebar {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 100vh;
     position: fixed;
     background-color: #fff;
@@ -53,7 +54,7 @@ ul {
 }
 
 #sidebar ul li a {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--primary-color);
     font-weight: 500;
     padding: 10px;
@@ -76,5 +77,5 @@ ul {
 
 #portfolio div img {
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: -4px;
 }
