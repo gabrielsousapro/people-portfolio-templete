@@ -85,6 +85,33 @@ ul {
     opacity: 1;
 }
 
+.pagination {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: center;
+    margin: 3rem 0;
+    padding-left: 300px;
+}
+
+.pagination a {
+    font-size: 1.8rem;
+    padding: 0.9rem 1.8rem;
+    text-decoration: none;
+    color: #303030;
+}
+
+.pagination .p-item {
+    background-color: var(--secondary-color);
+    color: #f1f1f1;
+}
+
+.button:hover {
+    background-color: var(--secondary-color);
+    color: #f1f1f1;
+}
+
+
+
 @media (max-width: 1024px) {
     #sidebar {
         display: flex;
