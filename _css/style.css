@@ -77,6 +77,12 @@ ul {
 #portfolio div img {
     width: 100%;
     margin-bottom: -4px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#portfolio div img:hover {
+    opacity: 1;
 }
 
 @media (max-width: 1024px) {
