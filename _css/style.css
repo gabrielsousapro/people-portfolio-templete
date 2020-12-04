@@ -337,6 +337,91 @@ ul {
 #footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    color: #202020;
+    background-color: #9e9e9e;
+}
+
+#footer h2 {
+    padding-left: 0;
+    padding-bottom: 2rem;
+}
+
+#footer .info {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#footer .info p {
+    font-size: 1.5rem;
+}
+
+#footer .post-box-flex {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+.post-box-flex a {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 2rem;
+}
+
+.post-box-flex a:hover {
+    color: #ddd;
+    background-color: #404040;
+}
+
+.post-box-flex a div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    justify-content: space-evenly;
+}
+
+.post-box-flex a div p {
+    font-size: 1.5rem;
+}
+
+.post-box-flex a img {
+    grid-row: 1 span 2;
+}
+
+#footer .blog-post div img {
+    width: 48px;
+    height: 48px;
+
+}
+
+.post-box-flex .second-divisor {
+    border: 1px solid #505050;
+}
+
+#footer .tags {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+
+.tags .tag {
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #ddd;
+    background-color: #404040;
+}
+.bottom {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 3rem;
+    color: #a0a0a0;
+    background-color: #000;
+    width: 100%;
+    grid-column: 1 / span 3;
 }
 
 @media (max-width: 1024px) {
