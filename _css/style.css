@@ -158,6 +158,64 @@ ul {
     padding-bottom: 1.5rem;
 }
 
+#about .tech {
+    padding-left: 0;
+}
+
+.divisor {
+    margin-top: 2.5rem;
+    color: #fff;
+}
+
+#about h3 {
+    font-size: 1.8rem;
+    letter-spacing: 0.5rem;
+    font-weight: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    margin: 2rem 0;
+}
+
+.progress-bar div {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+    background-color: #a0a0a0;
+}
+
+.photography-bar {
+    width: 95%;
+}
+
+.web-design-bar {
+    width: 85%;
+}
+
+.photoshop-bar {
+    width: 80%;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #303030;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    border: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.download-button:hover {
+    background-color: #a0a0a0;
+    transition: 600ms;
+}
+
 @media (max-width: 1024px) {
     #sidebar {
         display: flex;
